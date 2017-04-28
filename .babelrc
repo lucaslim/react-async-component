@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es": {
+      "presets": [
+        [
+          "es2015",
+          {
+            "modules": false
+          }
+        ],
+        "stage-1",
+        "react"
+      ]
+    },
+    "cjs": {
+      "presets": [
+        [
+          "es2015",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        "stage-1",
+        "react"
+      ]
+    }
+  }
+}
