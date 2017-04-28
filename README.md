@@ -18,9 +18,9 @@ $ yarn add react-component-async
 ```jsx
 // using ES6 modules
 
-import AsyncComponent from 'react-async';
+import AsyncComponent from 'react-component-async';
 
-export const CoreLayout = ({ children }) =>
+export const Header = ({ children }) =>
   <header className={'container'}>
     <AsyncComponent getComponent={async () => {
       const component = await import('components/menu');
