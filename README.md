@@ -1,12 +1,5 @@
 # React Component Async
 
-## Requirements
-The component uses ES2017 async generator function. Please add this plugin to your webpack build.
-
-```  
-$ yarn add -D babel-plugin-transform-async-to-generator
-```
-
 ## Installation
 
 ```  
