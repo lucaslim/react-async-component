@@ -1,7 +1,7 @@
 {
   "name": "react-component-async",
   "description": "Load component asynchronously",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "cjs/index.js",
   "module": "es/index.js",
   "repository": "git@github.com:lucaslim/react-component-async.git",
