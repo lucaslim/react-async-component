@@ -8,11 +8,12 @@ class AsyncComponent extends Component {
     getComponent: PropTypes.func.isRequired
   }
 
-  async componentDidMount () {
+  componentDidMount () {
     const { getComponent } = this.props;
 
-    const component = await getComponent();
-    await this.setState({ Component: component });
+    getComponent().then(component => {
+      this.setState({ Component: component });
+    });
   }
 
   render () {
